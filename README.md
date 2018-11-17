@@ -5,7 +5,7 @@ Originally cpprestsdk does not support boringssl but openssl.
 grpc requires boringssl. If there is a project which needs both cpprestsdk and grpc, then it is hard to build with bazel.
 This project gives a demo of how to make that work.
 
-Even through no cpprestsdk + grpc joint project is given. But this WORKSPACE is configured such that it will work. You can
+Even through no cpprestsdk + grpc joint project is not given. But this WORKSPACE is configured such that it will work. You can
 check with following two seperate tests:
 
 1. bazel run http:wss_test
